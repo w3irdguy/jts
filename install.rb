@@ -3,7 +3,7 @@ loop do
 	var = gets.chomp
 	if var == 'y'
 		system "chmod +x jhonny"
-		system "mv jhonny /$PATH/bin/"
+		system "mv jhonny $PATH"
 		system "sudo apt install python3"
 		system "pip install phonenumbers"
 		system "pip install json"
