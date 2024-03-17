@@ -2,8 +2,8 @@ loop do
 	print("Do you want to install the requirements?(y/n): ")
 	var = gets.chomp
 	if var == 'y'
-		system "chmod +x jhonny"
-		system "mv jhonny $PATH"
+		system "sudo chmod +x jhonny"
+		system "sudo mv jhonny $PATH"
 		system "sudo apt install python3"
 		system "pip install phonenumbers"
 		system "pip install json"
@@ -16,7 +16,7 @@ loop do
 		system "pip install lxml"
 		system "pip install getpass"
 		system "pip install shutil"
-		system "echo -e \033[0;49;91m Type\033[m\033[0;49;93m jhonny "
+		system "echo -e \033[0;49;91m Type \033[m \033[0;49;93m jhonny "
 		break
 	else
 		puts "bye bye"
