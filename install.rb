@@ -16,7 +16,7 @@ loop do
 		system "pip install lxml"
 		system "pip install getpass"
 		system "pip install shutil"
-		system "echo -e \033[0;49;91m Type \033[m \033[0;49;93m jhonny "
+		system "echo type jhonny "
 		break
 	else
 		puts "bye bye"
