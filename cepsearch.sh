@@ -28,4 +28,4 @@ echo -e "$r DDD: $g $ddd\033[m"
 echo -e "$r Siafi: $g $siafi\033[m"
 read -p ">Enter<"
 rm json
-#python johnny.py
+python johnny.py
