@@ -1,1 +1,2 @@
-cd /home/jts/ ; python3 johnny.py
+home=$(hostname)
+cd /home/$home/jts/ ; python3 johnny.py
