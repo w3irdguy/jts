@@ -302,4 +302,4 @@ try:
 except (KeyboardInterrupt):
 	print(f"{g} De uma conferida nos meus outros projetos!\033[m")
 	os.system("sleep 1")
-	os.system("xdg-open https://github.com/z4kc?tab=repositories")
+
